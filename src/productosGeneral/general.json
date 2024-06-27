@@ -299,7 +299,211 @@
             "descuento": "S/.119.90",
             "categoria": "bebidas",
             "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/28565876-1000-1000/20315720.jpg"
-        }
+        },
     
+            {
+                "id": "68",
+                "marca": "SAN FERNANDO",
+                "nombre": "Pechuga Especial de Pollo Empacada al vacío",
+                "slug": "S/.17.50 x kg",
+                "cantidad": "Presentación: 1.5 kg aprox.",
+                "precio": "10-20",
+                "descuento": "",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/1588241-1000-1000/20220310-1.jpg"
+            },
+            {
+                "id": "69",
+                "marca": "PLAZA VEA",
+                "nombre": "Bonito Entero Congelado",
+                "slug": "S/.5.90 x kg",
+                "cantidad": "Presentación: 3 kg aprox.",
+                "precio": "0-10",
+                "descuento": "",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/446715-1000-1000/20073973.jpg"
+            },
+            {
+                "id": "70",
+                "marca": "SADIA",
+                "nombre": "Molleja de Pollo",
+                "slug": "S/.7.90",
+                "cantidad": "Presentación: 1 kg",
+                "precio": "0-10",
+                "descuento": "",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/19996561-1000-1000/20197699.jpg"
+            },
+            {
+                "id": "71",
+                "marca": "SALAS",
+                "nombre": "Alitas de Pollo Nikkei Alitas Maceradas",
+                "slug": "S/.31.49",
+                "cantidad": "Presentación: 900 g",
+                "precio": "30-40",
+                "descuento": "",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/24440692-1000-1000/20326658.jpg"
+            },
+            {
+                "id": "72",
+                "marca": "LAS NORAS",
+                "nombre": "Corazón de Cuadril Angus Argentino",
+                "slug": "S/.78.90 x kg",
+                "cantidad": "Presentación: 1.6 kg aprox.",
+                "precio": "40+",
+                "descuento": "S/.84.90",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/10256809-1000-1000/20055106.jpg"
+            },
+            {
+                "id": "73",
+                "marca": "PLAZA VEA",
+                "nombre": "Churrasco Parrillero de Res",
+                "slug": "S/.34.90 x kg",
+                "cantidad": "Presentación: 1.1 kg aprox.",
+                "precio": "30-40",
+                "descuento": "S/.37.00",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/518403-1000-1000/20074089.jpg"
+            },
+            {
+                "id": "74",
+                "marca": "PLAZA VEA",
+                "nombre": "Chuleta Parrillera de Cerdo",
+                "slug": "S/.19.50 x kg",
+                "cantidad": "Presentación: 1.04 kg aprox.",
+                "precio": "10-20",
+                "descuento": "",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/518436-1000-1000/980291.jpg"
+            },
+            {
+                "id": "75",
+                "marca": "BIG RANCH",
+                "nombre": "Bife Parrillero Americano",
+                "slug": "S/.65.90 x kg",
+                "cantidad": "Presentación: 1.4 kg aprox.",
+                "precio": "40+",
+                "descuento": "S/.70.00",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/646608-1000-1000/20190177.jpg"
+            },
+            {
+                "id": "76",
+                "marca": "SAN FERNANDO",
+                "nombre": "Pollo Trozado Macerado SAN FERNANDO Asu Olla! Sazón Pollo Al Horno",
+                "slug": "S/.12.90",
+                "cantidad": "Presentación: 800 g",
+                "precio": "10-20",
+                "descuento": "S/.14.90",
+                "categoria": "carnes",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/26761493-1000-1000/20206480.jpg"
+            },
+        
+            
+
+                {
+                    "id": "77",
+                    "marca": "THE BARBERIA",
+                    "nombre": "Gel para Cabello Ultra Fuerte Color Negro Pote 500ml",
+                    "slug": "S/.24.90",
+                    "cantidad": "Presentación: 500 ml",
+                    "precio": "20-30",
+                    "descuento": "",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/25856096-1000-1000/20192115.jpg"
+                },
+                {
+                    "id": "78",
+                    "marca": "GILLETTE",
+                    "nombre": "Desodorante para hombre en Gel para Hombre Clear Cool Wave Frasco 82g",
+                    "slug": "S/.19.90",
+                    "cantidad": "Presentación: 82 g",
+                    "precio": "10-20",
+                    "descuento": "",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/18098227-1000-1000/962659.jpg"
+                },
+                {
+                    "id": "79",
+                    "marca": "NIVEA",
+                    "nombre": "Desodorante para hombre Roll On Invisible B&W Male - Frasco 50ml",
+                    "slug": "S/.14.90",
+                    "cantidad": "Presentación: 50 ml",
+                    "precio": "10-20",
+                    "descuento": "S/.17.90",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/1471780-1000-1000/20029601.jpg"
+                },
+                {
+                    "id": "80",
+                    "marca": "LEA",
+                    "nombre": "Espuma de Afeitar Piel Sensible Frasco 250ml",
+                    "slug": "S/.17.50",
+                    "cantidad": "Presentación: 250 ml",
+                    "precio": "10-20",
+                    "descuento": "",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/646418-1000-1000/20119012.jpg"
+                },
+                {
+                    "id": "81",
+                    "marca": "REXONA",
+                    "nombre": "Desodorante para hombre en Aerosol Men V8 Frasco 250ml",
+                    "slug": "S/.19.90",
+                    "cantidad": "Presentación: 250 ml",
+                    "precio": "10-20",
+                    "descuento": "",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/26358732-1000-1000/20278367.jpg"
+                },
+                {
+                    "id": "82",
+                    "marca": "PROTEX",
+                    "nombre": "Jabón en Barra Avena 3X110g",
+                    "slug": "S/.10.90",
+                    "cantidad": "Presentación: 3x110 g",
+                    "precio": "0-10",
+                    "descuento": "",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/27187728-1000-1000/20010662004.jpg"
+                },
+                {
+                    "id": "83",
+                    "marca": "LISTERINE",
+                    "nombre": "Enjuague Bucal Cool Mint Botella 500ml",
+                    "slug": "S/.16.05",
+                    "cantidad": "Presentación: 500 ml",
+                    "precio": "10-20",
+                    "descuento": "S/.18.05",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/14207957-1000-1000/1084567002.jpg"
+                },
+                {
+                    "id": "84",
+                    "marca": "PERUVIAN HEALTH",
+                    "nombre": "Aceite de Coco - Pote 250 ML",
+                    "slug": "S/.22.50",
+                    "cantidad": "Presentación: 250 ml",
+                    "precio": "20-30",
+                    "descuento": "S/.28.50",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/7168149-1000-1000/imageUrl_1.jpg"
+                },
+                {
+                    "id": "85",
+                    "marca": "NEKO",
+                    "nombre": "Jabón Antibacterial Extra Protección Paquete 3un",
+                    "slug": "S/.22.50",
+                    "cantidad": "Presentación: Barra 125g",
+                    "precio": "20-30",
+                    "descuento": "S/.29.50",
+                    "categoria": "usopersonal",
+                    "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/1704317-1000-1000/914472.jpg"
+                }
+            
+            
+        
 
 ]
