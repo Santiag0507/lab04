@@ -46,9 +46,7 @@ const Main = () => {
                                     <div className="d-flex justify-content-center align-items-center">
                                         <img className='carousel' src={it.picture} />
                                     </div>
-                                    <Carousel.Caption>
-                                        <button className="btn btn-primary">Ver detalle</button>
-                                    </Carousel.Caption>
+                                    
                             </Carousel.Item>
                         ))}
             </Carousel>

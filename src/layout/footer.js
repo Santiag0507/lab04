@@ -12,11 +12,7 @@ const Footer = () => {
 
     return (
         <footer style={{ backgroundColor: '#f8f9fa', padding: '40px 20px', textAlign: 'center', fontFamily: 'Arial, sans-serif' }}>
-            <div style={{ display: 'flex', justifyContent: 'space-around', marginBottom: '30px' }}>
-                <button style={{ background: 'none', border: 'none', color: '#007bff', fontWeight: 'bold', cursor: 'pointer' }}>Inicio</button>
-                <button style={{ background: 'none', border: 'none', color: '#007bff', fontWeight: 'bold', cursor: 'pointer' }}>Buscar Tienda</button>
-                <button style={{ background: 'none', border: 'none', color: '#007bff', fontWeight: 'bold', cursor: 'pointer' }}>Regístrate</button>
-            </div>
+            
 
             <div style={{ display: 'flex', justifyContent: 'center', flexWrap: 'wrap', marginBottom: '40px' }}>
                 <div style={cardStyle}>

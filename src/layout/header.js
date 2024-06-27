@@ -22,9 +22,7 @@ function Header() {
                     
                     <div className="col-md-1 text-center">
                         <Link to="/productos">
-                            <button className=" stylebutton" >
-                                <div className="botonbarra">Productos</div>
-                                </button>
+                            <button className="botonbarra stylebutton" >Productos</button>
                         </Link>
                     </div>
                     <div className="col-md-1 text-center">
@@ -32,7 +30,6 @@ function Header() {
                             <button className="botonbarra stylebutton" >Descuentos</button>
                         </Link>
                     </div>
-
 
                     <div className="col-md-6 d-flex justify-content-center search">
                         <div className="search-container">
@@ -55,19 +52,17 @@ function Header() {
                         
             
                         <div className="col-md-1 botonbarra stylebutton">
-                                <NavDropdown 
-                                    className="d-inline-block " 
-                                    alignRight 
-                                    title={
-                                        <div>
-                                            <i className="iconitos" data-feather="user"></i>Mi sesión
-                                            </div>
+                                        <NavDropdown 
+                                            className="d-inline-block " 
+                                            alignRight 
+                                            title={
+                                                <div>
+                                                    <i className="iconitos" data-feather="user"></i>Mi sesión
+                                                </div>  
+                                            } 
+                                            id="navbarScrollingDropdown"
                                         
-                                    } 
-                                    id="navbarScrollingDropdown"
-                                
-                                >
-                                        
+                                        >                                     
                                         <NavDropdown.Item className="negrita-user" href="/iniciar-Sesion">
                                             <i data-feather="user"></i> Iniciar sesión/Registrarse
                                         </NavDropdown.Item>
@@ -77,12 +72,9 @@ function Header() {
                                         </NavDropdown.Item>
                                         <NavDropdown.Item className="negrita-user" href="#action4">
                                             <i data-feather="package"></i> Mis productos
-                                        </NavDropdown.Item>
-                                                
+                                        </NavDropdown.Item>                                               
                                 </NavDropdown>                             
-                        </div>
-              
-                    
+                        </div>                           
                 </div>
             </div>
         </header>
