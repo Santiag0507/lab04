@@ -123,7 +123,7 @@
   .stylebutton {
     background-color: transparent;
     color: #f8f8d2;
-    padding: 1px 10px;
+    padding: 5px 10px;
     border: none;
     cursor: pointer;
     transition: color 0.3s ease;
@@ -158,7 +158,7 @@
 
 .header-barra {
     background-color: #4CAF45;
-    padding: 3px 10px;
+    padding: 10px 0px;
     color: white;
     
 }
@@ -210,9 +210,57 @@
     padding: 10px;
 }
 
-
 .centro {
     background-color: none;
     padding: none;
     
 }
+
+
+
+
+
+.mx-2 {
+    margin-left: 0.5rem !important;
+    margin-right: 0.5rem !important;
+}
+
+@media (max-width: 768px) {
+    .search-container {
+        width: 100%;
+    }
+    .col-md-3 .d-flex {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .col-md-3 .d-flex .botonbarra {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
+footer {
+    background-color: #f8f9fa;
+  }
+  
+  footer h5, footer h6 {
+    margin-top: 20px;
+  }
+  
+  footer ul {
+    padding-left: 0;
+  }
+  
+  footer ul li {
+    list-style: none;
+  }
+  
+  footer button {
+    margin-top: 10px;
+  }
+
+
+
+

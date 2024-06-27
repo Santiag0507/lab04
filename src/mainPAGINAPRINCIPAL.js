@@ -81,12 +81,10 @@ const Main = () => {
                 </div>
             </div>
 
-
-            
-        
-
-
             <hr />
+
+
+
             <div class="popular-products-section text-center">
                 <h2 class="text-center" ><i data-feather="clipboard"></i> PRODUCTOS MÁS VENDIDOS</h2>
                 <div>
@@ -117,6 +115,9 @@ const Main = () => {
                     </div>
                 </div>
             </div>
+
+
+
 
             <div className="container-fluid " style={{ backgroundColor: '#4CAF50'}}>
                 <div className=" empresa text-right text-center">
