@@ -8,18 +8,12 @@
     color: white!important;
 }
 
-
 .terciary{
     background-color: #34495E  ;
     color: white!important;
 }
 
 
-
-.centrar{
-    margin : auto;
-    padding : auto;
-}
 
 .caja{
     max-width:100 px ;
@@ -29,29 +23,29 @@
 .logo{
     max-width: 90px;
       max-height: 90px;
-  }
+}
 
-  .user{
+.user{
     max-width: 35px;
       max-height: 35px;
-  }
+}
 
-  .user:hover{
+.user:hover{
     max-width: 35px;
       max-height: 35px;
-  }
+}
 
-  .iconitos{
+.iconitos{
     color: #EDEABF;
-  }
+}
 
-  .iconitos:hover{
+.iconitos:hover{
     color: white;
     fill: rgb(255, 255, 255);
-  }
+}
 
 
-  .divider {
+.divider {
     height: 1px;
     margin: .5rem 0;
     overflow: hidden;
@@ -60,7 +54,7 @@
 
 
 
-  .d-inline-block .dropdown-toggle::after {
+.d-inline-block .dropdown-toggle::after {
     display: none !important; /* Oculta la flecha desplegable */
     border-radius: 50px; 
 }
@@ -163,8 +157,62 @@
 
 
 .header-barra {
-    background-color: #4CAF50;
-    padding: 1px 10px;
+    background-color: #4CAF45;
+    padding: 3px 10px;
     color: white;
+    
+}
+
+
+.tituloempr{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    font-style: normal;
+    font-size: 20px;
+    color:#ffffff;
+    margin-top: 2px;
+    padding: 10px;
+
+}
+
+.empres {
+    border: 2px solid #e6e5e5;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #ffffff; /* Sombra para dar profundidad */
+    padding: 20px;
+    margin: 20px;
+    background-color: #4CAF30;
+}
+
+.empres-1{
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    font-style: normal;
+    font-size: 18px;
+    color:#ffffff;
+}
+
+.empres-2 {
+    border: 0px solid #e6e5e5;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    padding: 10px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 16px;
+    color:#ffffff;
+}
+
+.empresa {
+    border: 0px solid #bd2222;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    padding: 10px;
+}
+
+
+.centro {
+    background-color: none;
+    padding: none;
     
 }
