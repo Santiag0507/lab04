@@ -95,7 +95,7 @@ function MainProductos() {
                                     </li>
                                     
                                     <li className="breadcrumb-item active" aria-current="page">
-                                        <Navbar.Brand href="/productos">Categorías</Navbar.Brand>
+                                        <Navbar.Brand href="/productos">Todas las categorías</Navbar.Brand>
                                     </li>
 
                                     {categoriaSeleccionada && (
