@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
 import Carousel from 'react-bootstrap/Carousel';
 import './stylemain.css';
 import { useNavigate } from 'react-router-dom';
@@ -36,23 +35,24 @@ const Main = () => {
 
  
 
-    return <main>   
-            <Carousel style={{ height: '500px' }}>
-                        {productos.map((it, index) => (
-                            <Carousel.Item key={index} onClick={(e) => {
-                                    e.preventDefault();
-                                    handleClick(it.slug);
-                                }}>
-                                    <div className="d-flex justify-content-center align-items-center">
-                                        <img className='carousel' src={it.picture} />
-                                    </div>
-                                    
-                            </Carousel.Item>
-                        ))}
-            </Carousel>
+    return <main ClassName = "col-md-12">   
+           <div className="container-fluid carousel-container col-md-12">
+                <Carousel>
+                    {productos.map((it, index) => (
+                        <Carousel.Item key={index} onClick={(e) => {
+                            e.preventDefault();
+                            handleClick(it.slug);
+                        }}>
+                            <div className="d-flex justify-content-center align-items-center">
+                                <img className='carousel' src={it.picture} alt={it.name} />
+                            </div>
+                        </Carousel.Item>
+                    ))}
+                </Carousel>
+            </div>
             
             
-            <div className="container-flu">
+            <div className="container-fluid">
                 <div className="row align-items-center">
                     <div className="col-md-1 d-flex justify-content-center">
                         <img

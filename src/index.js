@@ -60,8 +60,12 @@ const router = createBrowserRouter([
             },
 
             {
+               
                 path: "/principal",
                 element: <MainPrincipal />,
+
+                
+                
             },
 
             {
