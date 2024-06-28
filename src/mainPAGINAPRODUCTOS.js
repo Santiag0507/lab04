@@ -95,7 +95,7 @@ function MainProductos() {
                                     </li>
                                     
                                     <li className="breadcrumb-item active" aria-current="page">
-                                        <Navbar.Brand href="/productos">Todas las categorías</Navbar.Brand>
+                                        <Navbar.Brand href="/productos">Categorías</Navbar.Brand>
                                     </li>
 
                                     {categoriaSeleccionada && (
@@ -124,9 +124,11 @@ function MainProductos() {
                                     <option value="carnes">Carnes</option>
                                     <option value="cereales">Cereales</option>
                                     <option value="enlatados y conservas">Enlatados y conservas</option>
+                                    <option value="lacteos">Lácteos</option>
                                     <option value="limpieza">Limpieza</option>
                                     <option value="papeleria">Papeleria</option>
                                     <option value="snacks">Snacks</option>
+                                    <option value="frutasyverduras">Verduras y Frutas</option>
                                                                       
                                 </select>
                             </div>

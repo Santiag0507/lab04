@@ -117,6 +117,7 @@ function MainDescuentos() {
                                     <option value="limpieza">Limpieza</option>
                                     <option value="papeleria">Papeleria</option>
                                     <option value="snacks">Snacks</option>
+                                    <option value="frutasyverduras">Verduras y Frutas</option>
                                                                       
                                 </select>
                             </div>

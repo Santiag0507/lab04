@@ -7,6 +7,9 @@ import MainPrincipal from "./mainPAGINAPRINCIPAL";
 import MainDescuentos from "./mainPAGINADESCUENTOS";
 import InicioSesion from "./inicioSesion";
 import FavoritoPro from "./mainFavoritosProduct";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+
 
 import {
     createBrowserRouter,
@@ -43,7 +46,7 @@ const router = createBrowserRouter([
             {
                 path: '',
                 element: <>
-                    <div className="col-md-12">
+                    <div className="container-fluid col-md-12 ">
                         <Main></Main>
                     </div>
                     

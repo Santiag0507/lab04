@@ -1,98 +1,82 @@
 [
     {
         "id": 1,
-        "name": "Lacteos",
+        "name": "LÁCTEOS",
         "slug": "lacteos",
         "description": "---",
-        "imageUrl": "https://www.webconsultas.com/sites/default/files/styles/wch_image_schema/public/articulos/productos-lacteos.jpg",
+        "imageUrl": "https://i.imgur.com/PfLsMH5.png",
         "altText": "Lacteos"
     },
     {
         "id": 2,
-        "name": "Cereales",
+        "name": "CEREALES",
         "slug": "cereales",
         "description": "---",
-        "imageUrl": "https://thefoodtech.com/wp-content/uploads/2021/03/cereales-828x540.jpg",
+        "imageUrl": "https://i.imgur.com/MSy92sj.png",
         "altText": "Cereales"
     },
     {
         "id": 3,
-        "name": "Carnes",
+        "name": "CARNES",
         "slug": "carnes",
         "description": "---",
-        "imageUrl": "https://img.freepik.com/foto-gratis/carne-cruda-mesa_23-2150857912.jpg",
+        "imageUrl": "https://i.imgur.com/5bbr8Wy.png",
         "altText": "Carnes"
     },
     {
         "id": 4,
-        "name": "Verduras y frutas",
+        "name": "VERDURAS Y FRUTAS",
         "slug": "verfrutas",
         "description": "---",
-        "imageUrl": "https://cdn.kiwilimon.com/articuloimagen/30131/28243.jpg",
+        "imageUrl": "https://i.imgur.com/33ZFcXh.png",
         "altText": "verdurasyfrutas"
     },
     {
         "id": 5,
-        "name": "Embutidos",
-        "slug": "embutidos",
+        "name": "ACEITES Y GRASAS",
+        "slug": "aceitesygra",
         "description": "---",
-        "imageUrl": "https://tecnas.com.co/wp-content/uploads/2021/01/carnicas-sabores.png",
-        "altText": "embutidos"
+        "imageUrl": "https://i.imgur.com/RvZVvtF.png",
+        "altText": "aceites y grasas"
     },
     {
         "id": 6,
-        "name": "Atún",
+        "name": "ENLATADOS Y CONSERVAS",
         "slug": "enlatados",
         "description": "---",
-        "imageUrl": "https://www.latrochadigital.com.ar/wp-content/uploads/2022/05/beneficios-del-atun-1.jpg",
+        "imageUrl": "https://i.imgur.com/oeOHHcH.png",
         "altText": "enlatado"
     },
     {
         "id": 7,
-        "name": "Bebidas alcohólicas",
-        "slug": "alcohol",
+        "name": "BEBIDAS",
+        "slug": "bebidas",
         "description": "---",
-        "imageUrl": "https://i.blogs.es/7fc543/alcohol/1366_2000.jpg",
-        "altText": "alcoholicas"
+        "imageUrl": "https://i.imgur.com/BXC78ON.png",
+        "altText": "bebidas"
     },
     {
         "id": 8,
-        "name": "Bebidas energizantes",
-        "slug": "alcohol",
+        "name": "CUIDADO PERSONAL",
+        "slug": "cuidado personal",
         "description": "---",
-        "imageUrl": "https://images.ecestaticos.com/bFucS6IeD416pVScZk4nHWAaF3s=/0x0:2272x1425/1200x900/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2Fa9f%2F385%2Ffe3%2Fa9f385fe37c6badcc8a0f81629ae1f98.jpg",
-        "altText": "energizante"
+        "imageUrl": "https://i.imgur.com/yVUPcgm.png",
+        "altText": "cuidado personal"
     },
     {
         "id": 9,
-        "name": "Snacks",
+        "name": "SNACKS",
         "slug": "snacks",
         "description": "---",
-        "imageUrl": "https://ecx.images-amazon.com/images/I/61Dt99M29aL.jpg",
+        "imageUrl": "https://i.imgur.com/xkQRQ73.png",
         "altText": "snacks"
     },
     {
-        "id": 10,
-        "name": "Dulces",
-        "slug": "dulce",
-        "description": "---",
-        "imageUrl": "https://deliccias.es/wp-content/uploads/2023/11/Lote-Dulces-Mexicanos.jpg",
-        "altText": "Carnes"
-    },
-    {
         "id": 11,
-        "name": "Productos de limpieza",
+        "name": "PRODUCTOS DE LIMPIEZA",
         "slug": "limpieza",
         "description": "---",
-        "imageUrl": "https://blog.flota.es/wp-content/uploads/2015/12/productos-limpieza-basicos.jpg",
+        "imageUrl": "https://i.imgur.com/DVAE29X.png",
         "altText": "limpieza"
-    },
-    {
-        "id": 12,
-        "name": "Cuidado personal",
-        "slug": "personal",
-        "description": "---",
-        "imageUrl": "https://ecommerce.surtifamiliar.com/backend/admin/backend/web/archivosDelCliente/categorias/images/20201103104540-Aseo-Personal-Cuidado-Capilar16044183409461.jpg",
-        "altText": "Carnes"
     }
 ]

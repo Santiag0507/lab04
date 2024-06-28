@@ -24,22 +24,7 @@
             /* Espaciado interno del rectángulo */
         }
 
-        .category-button {
-            width: 50px;
-            /* Ancho de los botones de categoría */
-            height: 50px;
-            /* Altura de los botones de categoría */
-            border-radius: 50%;
-            /* Forma de círculo */
-            margin: 0 60px;
-            /* Espaciado entre los botones */
-            border: 2px solid #97CADB;
-            /* Borde de los botones */
-            display: inline-block;
-            /* Mantiene los botones en una línea */
-            cursor: pointer;
-            /* Cambia el cursor al pasar por encima */
-        }
+        
 
         .popular-products-section {
             background-color: #D9D9D9;
@@ -187,17 +172,10 @@
             background-color: #ffffff; /* Fondo blanco */
             border-radius: 8px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
-            padding: 20px; /* Padding interno */
-            
-            
+            padding: 20px; /* Padding interno */  
         }
 
-        .procardcat {
-            border: 0px solid #d6d6d6;; /* Borde de 2 píxeles de grosor, color azul */
-            border-radius: 9px; /* Bordes redondeados */
-            box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-            padding: 18px;
-        }
+        
 
         .minicard {
             padding: 10px;
@@ -212,6 +190,12 @@
         }
             
         
+        .procardcat {
+            border: 0px solid #d6d6d6;; /* Borde de 2 píxeles de grosor, color azul */
+            border-radius: 9px; /* Bordes redondeados */
+            box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+            padding: 18px;
+        }
 
         .procardcat:hover {
             border: 2px solid #e7e6e6;; /* Borde de 2 píxeles de grosor, color azul */
@@ -287,6 +271,8 @@
             margin: 0 auto; /* Para centrar el botón */
             width: 150px; /* Ancho del botón */
             height: 40px; /* Altura del botón */    
+            margin-top: 13px;
+
         }
 
         .fuentestachado {

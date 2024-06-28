@@ -169,46 +169,136 @@
     font-weight: bold; /* Negrita */
     font-style: normal;
     font-size: 20px;
-    color:#ffffff;
+    color:#4CAF30;
     margin-top: 2px;
-    padding: 10px;
+    padding: 5px;
 
 }
 
-.empres {
-    border: 2px solid #e6e5e5;; /* Borde de 2 píxeles de grosor, color azul */
-    border-radius: 9px; /* Bordes redondeados */
-    box-shadow: 2 4px 8px #ffffff; /* Sombra para dar profundidad */
-    padding: 20px;
-    margin: 20px;
-    background-color: #4CAF30;
-}
-
-.empres-1{
-    font-family: "Poppins", sans-serif;
-    font-weight: bold; /* Negrita */
-    font-style: normal;
-    font-size: 18px;
-    color:#ffffff;
-}
-
-.empres-2 {
-    border: 0px solid #e6e5e5;; /* Borde de 2 píxeles de grosor, color azul */
-    border-radius: 9px; /* Bordes redondeados */
-    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-    padding: 10px;
+.tituloempr-1{
     font-family: "Poppins", sans-serif;
     font-style: normal;
-    font-size: 16px;
-    color:#ffffff;
+    font-size: 15px;
+    color:#000000;
+    margin-top: 2px;
+    padding: 5px;
+
+}
+
+.letra {
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;     /* Elimina el margen superior */
+    padding-top: 0;    /* Elimina el relleno superior */
+    color: #615f5f;
+    font-size: 14px;
+}
+
+.let-cuerpo {
+    font-family: "Poppins", sans-serif;
+    margin-top: 0;     /* Elimina el margen superior */
+    padding-top: 0;    /* Elimina el relleno superior */
+    color: #000000;
+    font-size: 15px;
 }
 
 .empresa {
-    border: 0px solid #bd2222;; /* Borde de 2 píxeles de grosor, color azul */
-    border-radius: 9px; /* Bordes redondeados */
-    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-    padding: 10px;
+    padding: 0px;
+    margin: 4px;
+    background-color: #ffffff;
 }
+
+.empresita {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    padding: 0px;
+    margin: 0px;
+    color: #000000;
+    text-align: center;
+
+}
+
+
+.empres {
+    
+    border: 2px solid #36a34c;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #36a34c; /* Sombra para dar profundidad */
+    background-color: #36a34c;
+    
+    
+
+}
+
+.empres:hover {
+    border: 2px solid #4CAF30;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #4CAF30; /* Sombra para dar profundidad */
+    background-color: #4CAF30;
+    
+}
+
+.empres-1 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    padding: 1px;
+    margin: 1px;
+    color: #ffffff;
+    
+}
+
+.empres-1:hover {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    padding: 1px;
+    margin: 1px;
+    color: #ffffff;
+}
+
+.empresota {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    border: 2px solid #36a34c;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #36a34c; /* Sombra para dar profundidad */
+    padding: 8px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #36a34c;
+}
+
+.empresota:hover {
+    border: 2px solid #4CAF30;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #4CAF30; /* Sombra para dar profundidad */
+    padding: 8px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #4CAF30;
+}
+
+
+.empress {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    border: 2px solid #771d1d; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #771d1d; /* Sombra para dar profundidad */
+    padding: 8px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #771d1d;
+}
+
+.empress:hover {
+    border: 2px solid #e12323;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 2 4px 8px #e12323; /* Sombra para dar profundidad */
+    padding: 8px;
+    margin: 5px;
+    color: #ffffff;
+    background-color: #e12323;
+}
+
 
 .centro {
     background-color: none;
@@ -260,6 +350,69 @@ footer {
   footer button {
     margin-top: 10px;
   }
+
+  .hist {
+    border: 0px solid #d6d6d6;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 9px; /* Bordes redondeados */
+    box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+    padding: 5px 50px;
+    margin-bottom: 20px; 
+}
+
+.cate-prin {
+    border: 1px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    margin:23px;
+    padding: 5px;
+    height: 243px;
+    margin-top: 3px;
+
+}
+
+.cate-prin-img {
+    border: 0px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    cursor: pointer;
+    
+
+}
+
+.cate-prin-img {
+    position: relative; /* Necesario para controlar el overlay */
+}
+
+.cate-prin-img  img {
+    transition: transform 0.3s ease; /* Transición suave de la transformación */
+}
+
+.cate-prin-img:hover img {
+    transform: scale(1.1); /* Escala del 110% al pasar el mouse */
+}
+
+.cate-prin-text {
+    
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    color: #000000;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.cate-titu {
+    font-size: 30px;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 0px;
+}
 
 
 
