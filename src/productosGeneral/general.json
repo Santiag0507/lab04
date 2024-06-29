@@ -2,11 +2,11 @@
     { 
         "id": "01",
         "marca": "GLORIA",
-        "nombre": "Leche Gloria",
-        "slug": "S/.20.00",
-        "cantidad": " Presentación: 1 L",
+        "nombre": "Leche GLORIA Entera Pack 3un",
+        "slug": "S/.40.00",
+        "cantidad": " Presentación: 1 L c/u",
         "precio": "20-30",
-        "descuento": "S/20.90",
+        "descuento": "S/38.90",
         "categoria": "lacteos",
         "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/28594257-512-512/929548.jpg"
     },
@@ -1592,6 +1592,94 @@
                 "descuento": "",
                 "categoria": "frutasyverduras",
                 "imagen": "https://todofrescord.com/wp-content/uploads/2019/12/manzana.jpg"
+            },
+            {
+                "id": "136",
+                "marca": "GLORIA",
+                "nombre": "Sixpack Leche Reconstituida ",
+                "slug": "S/.30.00",
+                "cantidad": "Presentación:  390g x lata",
+                "precio": "0-10",
+                "descuento": "S/.22.40",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/DioMSBH.jpeg"
+            },
+            {
+                "id": "137",
+                "marca": "GLORIA",
+                "nombre": "Mantequilla GLORIA Pote",
+                "slug": "S/.16.10",
+                "cantidad": "Presentación:  390g",
+                "precio": "0-10",
+                "descuento": "S/14.90",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/R7x9vgz.jpeg"
+            },
+            {
+                "id": "138",
+                "marca": "GLORIA",
+                "nombre": "Yogurt GLORIA Parcialmente Descremado Sabor Fresa",
+                "slug": "S/.10.20",
+                "cantidad": "Presentación:  1.7 K",
+                "precio": "0-10",
+                "descuento": "S/9.20",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/RDEs8Zo.jpeg"
+            },
+            {
+                "id": "139",
+                "marca": "GLORIA",
+                "nombre": "Leche UHT GLORIA Light Pack 3un",
+                "slug": "S/.59.10",
+                "cantidad": "Presentación:  1 L c/u",
+                "precio": "0-10",
+                "descuento": "",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/PxEDgoY.jpeg"
+            },
+            {
+                "id": "140",
+                "marca": "GLORIA",
+                "nombre": "Leche GLORIA Zero Lacto Lata Pack 6un",
+                "slug": "S/.24",
+                "cantidad": "Presentación:  1 L c/u",
+                "precio": "20-30",
+                "descuento": "",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/BMTpBfQ.jpeg"
+            },
+            {
+                "id": "141",
+                "marca": "GLORIA",
+                "nombre": "Yogurt GLORIA Parcialmente Descremado Sabor Vainilla",
+                "slug": "S/.10.20",
+                "cantidad": "Presentación:  1.7 L",
+                "precio": "10-20",
+                "descuento": "",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/19sXIGi.jpeg"
+            },
+            {
+                "id": "142",
+                "marca": "GLORIA",
+                "nombre": "Mantequilla con Sal GLORIA",
+                "slug": "S/.9.60",
+                "cantidad": "Presentación:  180g",
+                "precio": "0-10",
+                "descuento": "9.10",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/4IvahFF.jpeg"
+            },
+            {
+                "id": "143",
+                "marca": "GLORIA",
+                "nombre": "Yogurt GLORIA Battimix Vainilla con Arroz Crujiente",
+                "slug": "S/.3.20",
+                "cantidad": "Presentación:  146g",
+                "precio": "0-10",
+                "descuento": "",
+                "categoria": "lacteos",
+                "imagen": "https://i.imgur.com/CA6FfD9.jpeg"
             }
         
              

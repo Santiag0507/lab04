@@ -11,8 +11,10 @@ function MainDescuentos() {
     const [mostrarMarcas, setMostrarMarcas] = useState(false);
     const [marcasDisponibles, setMarcasDisponibles] = useState([]);
     const [nombreCategoria, setNombreCategoria] = useState('');
+    
 
     useEffect(() => {
+        
         const marcas = obtenerMarcasPorCategoriaYPrecio(categoriaSeleccionada, precioSeleccionado);
         setMarcasDisponibles(marcas);
     }, [categoriaSeleccionada, precioSeleccionado]);
@@ -178,7 +180,7 @@ function MainDescuentos() {
                                         <div className="fuentemarca">{producto.marca}</div>
                                         <div className="fuentenombre">{producto.nombre}</div>
                                         <div className="fuentemarca">{producto.cantidad}</div>
-                                        <div className='fuentestachado'> {producto.descuento}</div>
+                                        <div className='fuentestachado' style={{ textDecoration: 'line-through' }}> {producto.descuento}</div>
                                         <div className='fuenteslug'> {producto.slug}</div>
                                         <button className="botonagre stylebotonagre " >AGREGAR</button>
                                     </div>

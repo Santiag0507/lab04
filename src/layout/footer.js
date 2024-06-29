@@ -4,12 +4,12 @@ import { Container, Row, Col, Button } from 'react-bootstrap';
 
 const Footer = () => {
     return (
-        <footer className="bg-light text-dark py-4">
+        <footer className="foot text-dark py-4">
             <Container>
                 <Row>
                     <Col xs={12} md={3}>
                         <h5>Inicio</h5>
-                        <ul className="list-unstyled">
+                        <ul className="foot-1 list-unstyled">
                             <li>Buscar Tienda</li>
                             <li>Regístrate para recibir correos</li>
 
@@ -19,7 +19,7 @@ const Footer = () => {
                         <Row>
                             <Col xs={6} md={2}>
                                 <h5>Abarrotes</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Arroz</li>
                                     <li>Papa</li>
                                     <li>Camote</li>
@@ -29,7 +29,7 @@ const Footer = () => {
                             </Col>
                             <Col xs={6} md={2}>
                                 <h5>Carnes</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Pollo</li>
                                     <li>Pescado</li>
                                     <li>Res</li>
@@ -39,7 +39,7 @@ const Footer = () => {
                             </Col>
                             <Col xs={6} md={2}>
                                 <h5>Uso Personal</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Papel Higiénico</li>
                                     <li>Toallas Sanitarias</li>
                                     <li>Shampoo</li>
@@ -49,7 +49,7 @@ const Footer = () => {
                             </Col>
                             <Col xs={6} md={2}>
                                 <h5>Limpieza</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Detergente</li>
                                     <li>Limpiadores Multiuso</li>
                                     <li>Esponjas</li>
@@ -59,7 +59,7 @@ const Footer = () => {
                             </Col>
                             <Col xs={6} md={2}>
                                 <h5>Bebidas</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Gaseosas</li>
                                     <li>Agua Mineral</li>
                                     <li>Jugos</li>
@@ -69,7 +69,7 @@ const Footer = () => {
                             </Col>
                             <Col xs={6} md={2}>
                                 <h5>Snacks</h5>
-                                <ul className="list-unstyled">
+                                <ul className="foot-1 list-unstyled">
                                     <li>Galletas Dulces</li>
                                     <li>Galletas Saladas</li>
                                     <li>Bocaditos</li>
@@ -80,7 +80,7 @@ const Footer = () => {
                         </Row>
                     </Col>
                 </Row>
-                <Row className="mt-3">
+                <Row className="foot-1 mt-3">
                     <Col xs={12} md={3}>
                         <Button variant="light">@Facebook</Button>
                     </Col>

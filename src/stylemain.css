@@ -167,12 +167,13 @@
           }
 
 
-          .procard {
+        .procard {
             border: 1px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
             background-color: #ffffff; /* Fondo blanco */
             border-radius: 8px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
             padding: 20px; /* Padding interno */  
+            
         }
 
         
@@ -193,16 +194,17 @@
         .procardcat {
             border: 0px solid #d6d6d6;; /* Borde de 2 píxeles de grosor, color azul */
             border-radius: 9px; /* Bordes redondeados */
-            box-shadow: 1 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
-            padding: 18px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+            padding: 12px;
+            height: 445px;
         }
 
         .procardcat:hover {
             border: 2px solid #e7e6e6;; /* Borde de 2 píxeles de grosor, color azul */
             border-radius: 9px; /* Bordes redondeados */
             box-shadow: 0 4px 8px rgba(146, 145, 145, 1); /* Sombra para dar profundidad */
-            padding: 18px;
-            
+            padding: 12px;
+            height: 445px;  
         }
 
         
@@ -212,6 +214,7 @@
             font-style: normal;
             font-size: 14px;
             color: #808080;
+            
           }
 
         .fuentenombre{
@@ -220,6 +223,9 @@
             font-size: 18px;
             color: #212020;
             font-weight: bold; /* Negrita */
+            white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
+            overflow: hidden;         /* Oculta el contenido desbordante */
+            text-overflow: ellipsis;  /* Muestra puntos suspensivos (...) al final del texto */
         }
 
         .fuenteslug{
@@ -228,7 +234,7 @@
             font-size: 18px;
             color: #4CAF50;
             font-style: normal;
-
+            min-height: 20px;
             font-weight: bold; /* Negrita */
         }
 
@@ -254,7 +260,7 @@
             margin: 0 auto; /* Para centrar el botón */
             width: 150px; /* Ancho del botón */
             height: 40px; /* Altura del botón */
-            margin-top: 13px;
+            margin-top: 5px;
         }
         
         /* Cambiar el color del texto al pasar el mouse por encima */
@@ -271,7 +277,7 @@
             margin: 0 auto; /* Para centrar el botón */
             width: 150px; /* Ancho del botón */
             height: 40px; /* Altura del botón */    
-            margin-top: 13px;
+            margin-top: 5px;
 
         }
 
@@ -279,7 +285,7 @@
             font-family: "Poppins", sans-serif;
             font-size: 15px;
             color: #939493;
-            text-decoration: line-through; /* Aplica el tachado desde el inicio */
+            margin-top: 0px;
         }
 
         .aliboticon {

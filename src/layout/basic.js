@@ -18,6 +18,8 @@ const Basic = () => {
                 <Footer />
             </StrictMode>
         </>
+        
+
     );
 }
 

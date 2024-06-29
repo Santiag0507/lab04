@@ -17,9 +17,7 @@ import {
 } from "react-router-dom";
 import Single from './single';
 import Basic from './layout/basic';
-import Basic1 from './layout/basic1';
-
-
+import Basic1 from './layout/basic';
 const router = createBrowserRouter([
     {
         path: "/iniciarSesion",

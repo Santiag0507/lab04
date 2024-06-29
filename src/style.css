@@ -202,9 +202,9 @@
 }
 
 .empresa {
-    padding: 0px;
+    padding: 5px;
     margin: 4px;
-    background-color: #ffffff;
+    background-color: #f8f9fa;
 }
 
 .empresita {
@@ -220,7 +220,7 @@
 
 .empres {
     
-    border: 2px solid #36a34c;; /* Borde de 2 píxeles de grosor, color azul */
+    border: 2px solid #36a34c; /* Borde de 2 píxeles de grosor, color azul */
     border-radius: 9px; /* Bordes redondeados */
     box-shadow: 2 4px 8px #36a34c; /* Sombra para dar profundidad */
     background-color: #36a34c;
@@ -360,24 +360,21 @@ footer {
 }
 
 .cate-prin {
-    border: 1px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    border: 0px; /* Borde de 1 píxel de grosor, color azul */
     background-color: #ffffff; /* Fondo blanco */
-    border-radius: 8px; /* Bordes redondeados */
-    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow: 0 0px 0px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
     margin:23px;
     padding: 5px;
     height: 243px;
     margin-top: 3px;
-
 }
 
 .cate-prin-img {
-    border: 0px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    border: 0px; /* Borde de 1 píxel de grosor, color azul */
     background-color: #ffffff; /* Fondo blanco */
     border-radius: 8px; /* Bordes redondeados */
     cursor: pointer;
-    
-
 }
 
 .cate-prin-img {
@@ -393,7 +390,16 @@ footer {
 }
 
 .cate-prin-text {
-    
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    color: #504f4f;
+    cursor: pointer;
+    padding: 7px;
+}
+
+.cate-prin-text:hover {
     display: block; /* Para centrar el botón */
     margin: 0 auto; /* Para centrar el botón */
     font-family: "Poppins", sans-serif;
@@ -413,6 +419,197 @@ footer {
     padding: 5px;
     margin-top: 0px;
 }
+
+.foot {
+    padding: 0px;
+    margin: 4px;
+    background-color: #28a745;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+.foot-1 {
+    color: #ffffff;
+}
+
+.publi {
+    border: 1px solid #d6d6d6; /* Borde de 1 píxel de grosor, color azul */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    height: 292px;
+    width: 330px;
+    margin: 3px;
+    margin-top: 0px; /*agrega espacio interno*/
+    padding: 12px;
+}
+
+.flechitas-cat {
+    color: #36a34c;
+    font-size: 50px; /* Tamaño del icono */
+    padding: 1px;
+    margin: 0 7px;
+    height: 40px;
+    width: 40px;
+}
+
+.flechitas-cat:hover {
+    color: #69df0f ; 
+    font-size: 50px; /* Tamaño del icono */
+    padding: 1px;
+    margin: 0 7px;
+    height: 40px;
+    width: 40px;
+}
+
+.cate-new {
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold; /* Negrita */
+    color: #000000;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+    margin: 10px;
+}
+
+.prom {
+    border: 1px solid #d6d6d6; /* Borde de 1 píxel de grosor, color azul */
+    border-radius: 20px; /* Bordes redondeados */
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    height: 262px;
+    width: 400px;
+    margin: 3px;
+    margin-top: 0px; /*agrega espacio interno*/
+    padding: 12px;
+    background-color:#4CAF50;
+}
+
+.glori-logo {
+    border: 1px solid #d6d6d6; /* Borde de 1 píxel de grosor, color azul */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    height: 292px;
+    width: 330px;
+    margin: 3px;
+    margin-top: 0px; /*agrega espacio interno*/
+    padding: 12px;
+}
+
+.flechitas-glor {
+    color: #36a34c;
+    font-size: 24px; /* Tamaño del icono */
+    padding: 1px;
+    height: 30px;
+    width: 30px;
+    margin: 0 7px;
+}
+
+.flechitas-glor:hover {
+    color: #69df0f;
+    font-size: 24px; /* Tamaño del icono */
+    padding: 1px;
+    height: 30px;
+    width: 30px;
+    margin: 0 7px;
+}
+
+
+.glori-cat {
+    border: 1px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    padding: 15px;
+    height: 292px;
+    width: 175px;
+    margin: 0 10px;
+    margin-bottom: 5px; /*espacio entre card*/
+}
+
+.glori-cat:hover {
+    border: 2px solid #e7e6e6;; /* Borde de 2 píxeles de grosor, color azul */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(146, 145, 145, 1); /* Sombra para dar profundidad */
+    padding: 15px;
+    height: 292px;
+    width: 175px;
+    margin: 0 10px;
+    margin-bottom: 5px;
+}
+
+.glori-cat-img {
+    cursor: pointer;
+}
+
+.glori-cat-img {
+    padding: 5px;
+    position: relative; /* Necesario para controlar el overlay */
+}
+
+.glori-cat-img  img {
+    transition: transform 0.4s ease; /* Transición suave de la transformación */
+}
+
+.glori-cat-img:hover img {
+    transform: scale(1.1); /* Escala del 110% al pasar el mouse */
+}
+
+.fuentenombre-1{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #212020;
+    font-weight: bold; /* Negrita */
+    white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
+    overflow: hidden;         /* Oculta el contenido desbordante */
+    text-overflow: ellipsis;  /* Muestra puntos suspensivos (...) al final del texto */
+}
+
+.botonagre-1 {
+    border:none;
+    padding: 4px 14px;
+    text-align: center;
+    font-size: 13px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+  }
+
+.stylebotonagre-1 {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 1px 10px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-radius: 12px;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    width: 140px; /* Ancho del botón */
+    height: 35px; /* Altura del botón */
+    margin-top: 5px;
+}
+
+/* Cambiar el color del texto al pasar el mouse por encima */
+.stylebotonagre-1:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 1px 10px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    border-radius: 15px;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    width: 140px; /* Ancho del botón */
+    height: 35px; /* Altura del botón */
+    margin-top: 5px;
+}
+
+
+
+
+
 
 
 

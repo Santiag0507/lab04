@@ -13,6 +13,7 @@ function MainProductos() {
     const [nombreCategoria, setNombreCategoria] = useState('');
 
 
+      
     useEffect(() => {
         const marcas = obtenerMarcasPorCategoriaYPrecio(categoriaSeleccionada, precioSeleccionado);
         setMarcasDisponibles(marcas);
@@ -186,12 +187,20 @@ function MainProductos() {
                                         <div className="minicard">
                                             <img src={producto.imagen} className="img-fluid" alt={`Imagen de ${producto.nombre}`} />
                                         </div>
-                                        <div className="fuentemarca">{producto.marca}</div>
-                                        <div className="fuentenombre">{producto.nombre}</div>
-                                        <div className="fuentemarca">{producto.cantidad}</div>
-                                        <div className='fuentestachado'> {producto.descuento}</div>
-                                        <div className='fuenteslug'> {producto.slug}</div>
-                                        <button className="botonagre stylebotonagre " >AGREGAR</button>
+                                        <div>
+                                            <div className="fuentemarca">{producto.marca}</div>
+                                            <div className="fuentenombre">{producto.nombre}</div>
+                                            <div className="fuentemarca">{producto.cantidad}</div>
+                                            <div className='fuentestachado'>
+                                                {producto.descuento ? (
+                                                    <span style={{ textDecoration: 'line-through' }}>{producto.descuento}</span>
+                                                ) : (
+                                                    <span>&nbsp;</span> // o puedes usar null si prefieres no renderizar nada
+                                                )}
+                                            </div>
+                                            <div className='fuenteslug'> {producto.slug}</div>
+                                            <button className="botonagre stylebotonagre " >AGREGAR</button>
+                                        </div>
                                     </div>
                                 </div>
                             ))}
