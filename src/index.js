@@ -27,7 +27,7 @@ const router = createBrowserRouter([
                 path: '',
                 element: <>
                     <div className="col-md-12">
-                    <InicioSesion />
+                        <InicioSesion />
                     </div>
                 </>
             },
@@ -37,7 +37,7 @@ const router = createBrowserRouter([
             },
 
         ],
-        
+
         path: "/",
         element: <Basic />,
         children: [
@@ -47,26 +47,26 @@ const router = createBrowserRouter([
                     <div className="container-fluid col-md-12 ">
                         <Main></Main>
                     </div>
-                    
+
                 </>
             },
             {
                 path: "detalle/:slug",
                 element: <Single />,
             },
-            
+
             {
                 path: "/productos",
                 element: <MainProductos />,
             },
 
             {
-               
+
                 path: "/principal",
                 element: <MainPrincipal />,
 
-                
-                
+
+
             },
 
             {
@@ -78,8 +78,8 @@ const router = createBrowserRouter([
                 path: "/favoritos",
                 element: <FavoritoPro />,
             },
-            
-            
+
+
         ],
 
     },

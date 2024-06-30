@@ -4,6 +4,12 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 import feather from 'feather-icons';
 
 function Header() {
+
+    
+        const handleBuyClick = () => {
+          
+          console.log('.public/iniciarsesion.html');
+        }
     return (
         <header className="header-barra" style={{ backgroundColor: '#4CAF50'}}>
             <div className="container-fluid">
@@ -55,8 +61,8 @@ function Header() {
                                 } 
                                 id="navbarScrollingDropdown"
                             >                                     
-                                <NavDropdown.Item className="negrita-user" href="/iniciar-Sesion">
-                                    <i data-feather="user"></i> Iniciar sesión/Registrarse
+                                 <NavDropdown.Item className="negrita-user" href= " iniciarsesion.html">
+                                    <i data-feather="user"  ></i> Iniciar sesión/Registrarse
                                 </NavDropdown.Item>
                                 <div className="divider"></div>
                                 <NavDropdown.Item className="negrita-user" href="#action3">

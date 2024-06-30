@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iniciar Sesión</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            overflow: hidden;
+            max-width: 800px;
+            width: 100%;
+        }
+
+        .carousel {
+            position: relative;
+            flex: 2;
+            overflow: hidden;
+        }
+
+        .carousel img {
+            width: 100%;
+            display: none;
+        }
+
+        .carousel img.active {
+            display: block;
+        }
+
+        .carousel .controls {
+            position: absolute;
+            top: 50%;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+        }
+
+        .carousel .controls button {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        .login-form {
+            flex: 1;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .login-form img {
+            max-width: 100px;
+            margin: 0 auto 20px;
+            display: block;
+        }
+
+        .login-form h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .login-form button {
+            margin: 5px 0;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            background-color: #ccc;
+            color: #fff;
+            pointer-events: none;
+        }
+
+        .login-form button.active {
+            background-color: #007BFF;
+            pointer-events: auto;
+        }
+
+        .login-form .social-login {
+            background-color: #4267B2;
+            color: #fff;
+        }
+
+        .login-form .social-login.google {
+            background-color: #DB4437;
+        }
+
+        .login-form input[type="email"],
+        .login-form input[type="password"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .login-form a {
+            text-align: center;
+            display: block;
+            margin-top: 10px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .login-form a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="carousel">
+            <img src="https://plazavea.vteximg.com.br/arquivos/ids/26624105-1000-1000/963407.jpg" class="active" alt="Imagen 1">
+            <img src="https://plazavea.vteximg.com.br/arquivos/ids/28565879-1000-1000/20389760.jpg" alt="Imagen 2">
+            <img src="https://plazavea.vteximg.com.br/arquivos/ids/28196096-1000-1000/20235718.jpg" alt="Imagen 3">
+            <div class="controls">
+                <button onclick="prevSlide()">&#10094;</button>
+                <button onclick="nextSlide()">&#10095;</button>
+            </div>
+        </div>
+        <div class="login-form">
+            <img src="https://i.imgur.com/ECx8W7C.png" alt="Logo">
+            <h2>INICIAR SESIÓN</h2>
+            <button class="social-login">Facebook</button>
+            <button class="social-login google">Google</button>
+            <input type="email" id="email" placeholder="Correo electrónico" oninput="checkForm()">
+            <input type="password" id="password" placeholder="Contraseña" oninput="checkForm()">
+            <a href="#">Olvidé mi contraseña</a>
+            <button type="submit" id="submit-button" class="submit">Ingresar</button>
+        </div>
+    </div>
+
+     <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.carousel img');
+        const submitButton = document.getElementById('submit-button');
+        const emailInput = document.getElementById('email');
+        const passwordInput = document.getElementById('password');
+
+        function showSlide(index) {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (index + slides.length) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        function prevSlide() {
+            showSlide(currentSlide - 1);
+        }
+
+        function checkForm() {
+            const emailValid = emailInput.value.includes('@');
+            const passwordValid = passwordInput.value.length >= 6;
+            if (emailValid && passwordValid) {
+                submitButton.classList.add('active');
+                submitButton.disabled = false;
+            } else {
+                submitButton.classList.remove('active');
+                submitButton.disabled = true;
+            }
+        }
+
+        document.getElementById('submit-button').addEventListener('click', function() {
+            const emailValid = emailInput.value.includes('@');
+            const passwordValid = passwordInput.value.length >= 6;
+            if (emailValid && passwordValid) {
+                login();
+            } else {
+                alert('Por favor ingresa un correo electrónico válido y una contraseña con al menos 6 caracteres.');
+            }
+        });
+
+        function login() {
+            
+            window.location.href = '/mainPAGINAPRINCIPAL.js ';
+        }
+
+        setInterval(nextSlide, 3000); // Cambia de imagen cada 3 segundos
+    </script>
+</body>
+</html>
