@@ -1,8 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import productosGeneral from './productosGeneral/general.json';
 import Navbar from 'react-bootstrap/Navbar';
+import {useFilters} from './useFilter'
 
 function MainProductos() {
+    const { setFilters } = useFilters()
     const productos = productosGeneral;
 
     const [categoriaSeleccionada, setCategoriaSeleccionada] = useState('');
@@ -11,7 +13,6 @@ function MainProductos() {
     const [mostrarMarcas, setMostrarMarcas] = useState(false);
     const [marcasDisponibles, setMarcasDisponibles] = useState([]);
     const [nombreCategoria, setNombreCategoria] = useState('');
-
 
       
     useEffect(() => {
@@ -67,6 +68,7 @@ function MainProductos() {
     
         // Obtener y establecer el nombre de la categoría seleccionada
         const nombre = e.target.options[e.target.selectedIndex].text;
+        setFilters({marca:categoria})
         setNombreCategoria(nombre);
     };
 
@@ -78,16 +80,11 @@ function MainProductos() {
         }
     };
 
-    
-
     const toggleMostrarMarcas = () => {
         setMostrarMarcas(!mostrarMarcas);
     };
 
     return (
-        <div>
-            <div className="container">
-                <div className="row mt-4">
                     <div className="col-md-3">
                         <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
@@ -101,7 +98,7 @@ function MainProductos() {
 
                                     {categoriaSeleccionada && (
                                         <li className="breadcrumb-item active" aria-current="page">
-                                            {nombreCategoria}
+                                            <Navbar.Brand href={`/${nombreCategoria}`}>{nombreCategoria}</Navbar.Brand>
                                         </li>
                                     )}
                                 </ol>
@@ -178,37 +175,7 @@ function MainProductos() {
                         </div>
                     </div>
 
-                    <div className="col-md-9">
-                        <h4 className="text-right text-center tit-pro">PRODUCTOS</h4>
-                        <div className="procard row">
-                            {productosFiltrados.map((producto, index) => (
-                                <div className="col-md-4 mb-4" key={index}>
-                                    <div className="procardcat">
-                                        <div className="minicard">
-                                            <img src={producto.imagen} className="img-fluid" alt={`Imagen de ${producto.nombre}`} />
-                                        </div>
-                                        <div>
-                                            <div className="fuentemarca">{producto.marca}</div>
-                                            <div className="fuentenombre">{producto.nombre}</div>
-                                            <div className="fuentemarca">{producto.cantidad}</div>
-                                            <div className='fuentestachado'>
-                                                {producto.descuento ? (
-                                                    <span style={{ textDecoration: 'line-through' }}>{producto.descuento}</span>
-                                                ) : (
-                                                    <span>&nbsp;</span> // o puedes usar null si prefieres no renderizar nada
-                                                )}
-                                            </div>
-                                            <div className='fuenteslug'> {producto.slug}</div>
-                                            <button className="botonagre stylebotonagre " >AGREGAR</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            ))}
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+               
     );
 }
 

@@ -6,7 +6,6 @@ import feather from 'feather-icons';
 import productos from './data/productosPaginaPrincipal.json';
 import productosGeneral from './productosGeneral/general.json';
 
-
 import './style.css';
 import './category.css';
 import categorias from './categoriasCarrusel/product.json';
@@ -47,6 +46,9 @@ const Main = () => {
 
     const handleClick = (slug) => {
         navigate("/detalle/" + slug);
+    }
+    const handleClickProducto = (id) => {
+        navigate("/producto/" + id);
     }
     
     // Función para avanzar al índice anterior circularmente
@@ -166,12 +168,17 @@ const Main = () => {
                                 <div class="row justify-content-between align-items-center">
                                     {[...productosGloria.slice(currentIndex1), ...productosGloria.slice(0, currentIndex1)].slice(0, 5).map(producto => (
                                         <div className="glori-cat">
-                                            <div className="glori-cat-img">
-                                                <img src={producto.imagen} className="img-fluid" alt={`Imagen de ${producto.nombre}`} />
+                                            <div onClick={(e) => {
+                                                e.preventDefault();
+                                                handleClickProducto(producto.id);
+                                            }}>
+                                                <div className="glori-cat-img">
+                                                    <img src={producto.imagen} className="img-fluid" alt={`Imagen de ${producto.nombre}`} />
+                                                </div>
+                                                <div className="fuentemarca">{producto.marca}</div>
+                                                <div className="fuentenombre-1">{producto.nombre}</div>
+                                                <div className='fuenteslug'> {producto.slug}</div>
                                             </div>
-                                            <div className="fuentemarca">{producto.marca}</div>
-                                            <div className="fuentenombre-1">{producto.nombre}</div>
-                                            <div className='fuenteslug'> {producto.slug}</div>
                                             <button className="botonagre-1 stylebotonagre-1 " >AGREGAR</button>
 
                                         </div>
