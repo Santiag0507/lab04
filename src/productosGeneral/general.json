@@ -1680,6 +1680,39 @@
                 "descuento": "",
                 "categoria": "lacteos",
                 "imagen": "https://i.imgur.com/CA6FfD9.jpeg"
+            }, 
+            { 
+                "id": "144",
+                "marca": "GLORIA",
+                "nombre": "Leche GLORIA Entera Pack 3un",
+                "slug": "S/.40.00",
+                "cantidad": " Presentación: 1 L c/u",
+                "precio": "20-30",
+                "descuento": "S/38.90",
+                "categoria": "lacteos",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/28594257-512-512/929548.jpg"
+            },
+            { 
+                "id": "145",
+                "marca": "GLORIA",
+                "nombre": "Leche GLORIA Entera Pack 3un",
+                "slug": "S/.40.00",
+                "cantidad": " Presentación: 1 L c/u",
+                "precio": "20-30",
+                "descuento": "S/38.90",
+                "categoria": "lacteos",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/28594257-512-512/929548.jpg"
+            },
+            { 
+                "id": "146",
+                "marca": "GLORIA",
+                "nombre": "Leche GLORIA Entera Pack 3un",
+                "slug": "S/.40.00",
+                "cantidad": " Presentación: 1 L c/u",
+                "precio": "20-30",
+                "descuento": "S/38.90",
+                "categoria": "lacteos",
+                "imagen": "https://plazavea.vteximg.com.br/arquivos/ids/28594257-512-512/929548.jpg"
             }
         
              

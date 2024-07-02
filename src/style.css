@@ -630,9 +630,9 @@ footer {
     background-color: #ffffff; /* Fondo blanco */
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 4px 8px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
-    padding: 10px; /* Padding interno */  
+    padding: 0px; /* Padding interno */  
     margin: 5px;
-    padding-top: 50px;  
+    padding-top: 20px;  
 }
 
 .prouni-1 {

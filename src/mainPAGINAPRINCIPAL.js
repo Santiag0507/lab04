@@ -173,6 +173,7 @@ const Main = () => {
                                 </div>
                         
                             </div>
+                            
                             <div className="col-md-9 d-flex ">
                                 <div class="row justify-content-between align-items-center">
                                     {[...productosGloria.slice(currentIndex1), ...productosGloria.slice(0, currentIndex1)].slice(0, 5).map(producto => (
