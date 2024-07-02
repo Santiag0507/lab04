@@ -10,8 +10,12 @@ function MainContenedorBusqueda() {
             <div>
                 <div className="container">
                     <div className="row mt-4">
-                    <MainProductos/>
-                    <MainContenedorProductos />
+                        <div className="col-3">
+                                <MainProductos />
+                        </div>
+                        <div className="col-9">
+                                <MainContenedorProductos />
+                        </div>
                     </div>
                 </div>
             </div>

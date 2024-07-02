@@ -22,7 +22,7 @@ function MainContenedorProductos() {
     }
     return (
               <div>
-                <div className="col-md-9">
+                <div className="">
                         <h4 className="text-right text-center tit-pro">PRODUCTOS</h4>
                         <div className="procard row">
                             {productosFiltrados.map((producto, index) => (

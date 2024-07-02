@@ -85,7 +85,7 @@ function MainProductos() {
     };
 
     return (
-                    <div className="col-md-3">
+                    <div className="">
                         <nav aria-label="breadcrumb">
                                 <ol className="breadcrumb">
                                     <li className="breadcrumb-item">

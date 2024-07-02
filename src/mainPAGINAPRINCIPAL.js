@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import feather from 'feather-icons';
 import productos from './data/productosPaginaPrincipal.json';
 import productosGeneral from './productosGeneral/general.json';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 import './style.css';
 import './category.css';
@@ -161,8 +163,15 @@ const Main = () => {
                     </div>
 
                     <div className="row"> 
-                            <div className="glori-logo col-md-3">
-                                <source src="https://i.imgur.com/apRcaJK.mp4" type="video/mp4"/>                                
+                            <div className="col-md-3">
+                                <div className="glori-logo">
+                                    <Navbar.Brand href="/productos">
+                                        <div className="logomini">
+                                            <img src="https://i.imgur.com/BwcxGjs.png" className="" alt="glo" />
+                                        </div>
+                                    </Navbar.Brand>
+                                </div>
+                        
                             </div>
                             <div className="col-md-9 d-flex ">
                                 <div class="row justify-content-between align-items-center">

@@ -486,14 +486,34 @@ footer {
 }
 
 .glori-logo {
-    border: 1px solid #d6d6d6; /* Borde de 1 píxel de grosor, color azul */
-    border-radius: 0px; /* Bordes redondeados */
+    border: 1px solid #d6d6d6; /* Borde de 1 píxel de grosor */
+    border-radius: 15px; /* Bordes redondeados */
     box-shadow: 0 5px 10px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
     height: 292px;
     width: 330px;
     margin: 3px;
-    margin-top: 0px; /*agrega espacio interno*/
-    padding: 12px;
+    margin-top: 0px; /* Espacio superior */
+    padding: 0px;
+    display: flex; /* Para centrar la imagen */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    overflow: hidden; /* Ocultar el desbordamiento de la imagen */
+}
+
+.logomini {
+    width: 100%; /* Ajustar el ancho al contenedor */
+    height: 100%; /* Ajustar la altura al contenedor */
+    object-fit: contain; /* Ajustar la imagen sin recortarla */
+    object-position: center; /* Centrar la imagen */
+    padding: 0px;
+}
+
+.logomini img {
+    transition: transform 0.3s ease; /* Transición suave de la transformación */
+}
+
+.logomini:hover img {
+    transform: scale(1.1); /* Escala del 110% al pasar el mouse */
 }
 
 .flechitas-glor {
