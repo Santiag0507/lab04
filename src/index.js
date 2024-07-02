@@ -2,13 +2,14 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 import { createRoot } from "react-dom/client";
 import Main from "./mainPAGINAPRINCIPAL";
-import MainProductos from "./mainPAGINAPRODUCTOS";
+import MainContenedorBusqueda from "./mainContenedorBusqueda";
 import MainPrincipal from "./mainPAGINAPRINCIPAL";
 import MainDescuentos from "./mainPAGINADESCUENTOS";
 import InicioSesion from "./inicioSesion";
 import FavoritoPro from "./mainFavoritosProduct";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import MainProducto from "./mainPAGINAPRODUCTO";
 
 
 import {
@@ -57,7 +58,7 @@ const router = createBrowserRouter([
 
             {
                 path: "/productos",
-                element: <MainProductos />,
+                element: <MainContenedorBusqueda />,
             },
 
             {
@@ -79,6 +80,10 @@ const router = createBrowserRouter([
                 element: <FavoritoPro />,
             },
 
+            {
+                path: "producto/:id",
+                element: <MainProducto />,
+            },
 
         ],
 
