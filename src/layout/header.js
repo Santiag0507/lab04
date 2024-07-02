@@ -45,12 +45,13 @@ function Header() {
 
                     <div className="col-md-3 d-flex justify-content-end">
                         <div className="d-flex align-items-center">
-                            <Navbar.Brand href="/" className="botonbarra stylebutton mx-2">
-                                <i className="iconitos" data-feather="shopping-cart"></i> Mi carrito
-                            </Navbar.Brand>
-                            <Navbar.Brand href="/favoritos" className="botonbarra stylebutton mx-2">
+                            <Navbar.Brand href="/favoritos" className=" stylebutton mx-2">
                                 <i className="iconitos" data-feather="heart"></i> Favoritos
                             </Navbar.Brand>
+                            <Navbar.Brand href="/" className="stylebutton mx-2">
+                                <i className="iconitos" data-feather="shopping-cart"></i> Mi carrito
+                            </Navbar.Brand>
+                            
                             <NavDropdown 
                                 className="d-inline-block mx-2" 
                                 alignRight 

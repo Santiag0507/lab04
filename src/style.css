@@ -132,7 +132,6 @@
 /* Cambiar el color del texto al pasar el mouse por encima */
 .stylebutton:hover {
     font-weight: bold;
-    background-color: #50aa0c;
     padding: 1px 10px;
     border: 0px solid #69df0f;
     border-radius: 12px;
@@ -626,11 +625,176 @@ footer {
     margin-top: 5px;
 }
 
+.prouni {
+    border: 1px solid #d6d6d6;; /* Borde de 1 píxel de grosor, color azul */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(80, 80, 80, 0.1); /* Sombra para dar profundidad */
+    padding: 10px; /* Padding interno */  
+    margin: 5px;
+    padding-top: 50px;  
+}
+
+.prouni-1 {
+    padding-top: 20px;  
+}
+
+.prominiprod {
+    width: 400px; /* Ancho del card */
+    height: 500px; /* Altura del card */
+}
+.miniprod {
+    padding: 15px;
+    position: relative; /* Necesario para controlar el overlay */
+}
+.miniprod img {
+    transition: transform 0.3s ease; /* Transición suave de la transformación */
+}
+
+.miniprod:hover img {
+    transform: scale(1.1); /* Escala del 110% al pasar el mouse */
+}
+
+.fuentemarcapro{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #808080;
+    padding-bottom: 8px;
+  }
 
 
+.fuentenombrepro{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 25px;
+    color: #212020;
+    font-weight: bold; /* Negrita */
+    white-space: nowrap;      /* Evita que el texto se divida en varias líneas */
+}
+
+.fuenteslugpro{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 23px;
+    color: #4CAF50;
+    font-style: normal;
+    min-height: 18px;
+    font-weight: bold; /* Negrita */
+}
+
+.fuenteslugpres{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #4CAF50;
+    font-style: normal;
+    min-height: 18px;
+    font-weight: bold; /* Negrita */
+    margin-right: 100px;
+
+}
+
+.caract{
+     font-weight: bold; /* Negrita */
+     font-family: "Poppins", sans-serif;
+     padding-top: 15px;
+}
+
+.fuentepresentpro{
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;   
+    margin-bottom: 12px; /* Espacio inferior */ 
+  }
+
+  .precio-antes {
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    margin-right: 98px;
+    color: #939493;
+    
+}
+.separar {
+    padding-top: 9px;     
+}
 
 
+.fuentestachadopro {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #939493;
+    margin-top: 0px;
+    
+}
+
+.linea-horizontal {
+    border-bottom: 1px solid #ccc; /* Borde inferior como línea */
+    width: 120%; /* Ajustar ancho al contenedor */
+    margin: 3px 0; /* Margen arriba y abajo para separación */
+    
+}
+
+.stylebotonagre-1 {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 1px 10px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-radius: 12px;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    width: 100px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */
+    margin-top: 5px;
+}
+
+/* Cambiar el color del texto al pasar el mouse por encima */
+.stylebotonagre-1:hover {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 1px 10px;
+    border: 2px solid #4CAF50;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    font-weight: bold;
+    border-radius: 12px;
+    display: block; /* Para centrar el botón */
+    margin: 0 auto; /* Para centrar el botón */
+    width: 100px; /* Ancho del botón */
+    height: 40px; /* Altura del botón */    
+    margin-top: 5px;
+
+}
 
 
+.botonagre-2 {
+    border:none;
+    padding: 4px 14px;
+    text-align: center;
+    font-size: 15px;
+    font-family: "Poppins", sans-serif;
+    font-optical-sizing: auto;
+  }
 
+.stylebotonagre-2 {
+    background-color: #ffffff;
+    color: #4CAF50;
+    padding: 1px 10px;
+    border: 0px solid #424141;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    border-radius: 12px;
+    margin-top: 5px;
+    font-weight: bold; /* Negrita */
+    margin-right: 20px; /* Espacio a la derecha del botón */
+    margin-left: 20px;  /* Espacio a la izquierda del botón */
+    margin-bottom: 10px; /* Espacio inferior */ 
+}
 
+.agregar-producto {
+    display: flex; /* Establece el contenedor como flexbox */
+}
